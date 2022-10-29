@@ -40,3 +40,59 @@ p[title|="xyz"] {
 a[href][title] {
     color: darkcyan;
 }
+
+
+/* 伪类与伪元素 */
+
+p:hover {
+    background-color: antiquewhite;
+}
+
+li:hover {
+    background-color: antiquewhite;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    color: brown;
+}
+
+input:focus {
+    background-color: blue;
+}
+
+pre:first-child {
+    color: brown;
+}
+
+li:first-child {
+    color: brown;
+}
+
+div p:first-line {
+    color: red;
+}
+
+div p:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+div h1:before {
+    content: "before:";
+}
+
+div h1:after {
+    content: ":after";
+}
