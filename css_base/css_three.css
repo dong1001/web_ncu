@@ -1,7 +1,17 @@
 /* 不建议使用* */
-
-* {
-    background-color: antiquewhite;
-    /* margin: 0;
-    padding: 0; */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+/* id选择器 */
+#main {
+    color: blue;
+}
+/* 类选择器 */
+.news_title {
+    color: brown;
+}
+/* 元素选择器 */
+h3 {
+    color: aquamarine;
 }
