@@ -15,3 +15,28 @@
 h3 {
     color: aquamarine;
 }
+
+/* 属性选择器 */
+[title] {
+    font-size: 1.5em;
+}
+
+p[title] {
+    color: blue;
+}
+
+p[title="abc"] {
+    color: blueviolet;
+}
+
+p[title~="de"] {
+    color: orange;
+}
+
+p[title|="xyz"] {
+    color: chocolate;
+}
+
+a[href][title] {
+    color: darkcyan;
+}
