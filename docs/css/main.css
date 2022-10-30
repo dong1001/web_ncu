@@ -1,0 +1,17 @@
+.news-con p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .newlt li a:hover,
+  .newlt li a.active {
+    background: #E0F3FB;
+    color: #30b0e2;
+  }
+
+  .two {
+    float: right;
+    margin-right: 50px;
+    width: 300px;
+  }
